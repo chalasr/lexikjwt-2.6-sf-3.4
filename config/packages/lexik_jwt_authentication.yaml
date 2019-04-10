@@ -1,0 +1,4 @@
+lexik_jwt_authentication:
+    public_key_path: '%env(resolve:JWT_PUBLIC_KEY)%'
+    private_key_path: '%env(resolve:JWT_SECRET_KEY)%'
+    pass_phrase: '%env(resolve:JWT_PASSPHRASE)%'
